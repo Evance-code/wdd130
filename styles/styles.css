@@ -1,3 +1,11 @@
+:root {
+  --oner-rem: 1rem;
+  
+  ;
+}
+
+
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -26,9 +34,9 @@ nav {
   }
   aside {
     width: 20rem;
-    margin: 1rem;
+    margin: var(--oner-rem);
     border: 1px solid rgb(0 0 0 / 0.2); /* 1️⃣ */
-    padding: 1rem;
+    padding: var(--oner-rem);
     background-color: #eee;
     color: #333;
     text-align: center;
