@@ -1,0 +1,215 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4; /* Light background color */
+    color: #333; /* Dark text color */
+}
+
+/* Header Styling */
+header {
+    background-color: var(--primary-color); /* Deep blue */
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none; /* No underline */
+}
+
+/* Hero Section Styling */
+.hero {
+    background: url('rafting.jpg') no-repeat center center/cover;
+    height: 80vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero .cta-button {
+    background-color: var(--secondary-color); /* Earthy green */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none; /* No underline */
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+/* Article Section */
+article {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for better readability */
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    width: 80%;
+    max-width: 600px;
+    z-index: 2;
+}
+
+article img {
+    float: right;
+    margin-left: 20px;
+    max-width: 150px;
+    border-radius: 8px;
+}
+
+/* History Section */
+section h2 {
+    color: var(--primary-color); /* Deep blue */
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+section p {
+    color: var(--text-color);
+    font-size: 1.1em;
+}
+
+/* Adventure Awaits Section */
+.rafting-images img {
+    margin: 10px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Styling for Links and Navigation */
+a {
+    color: var(--accent1-color); /* Light blue */
+    text-decoration: none; /* No underline */
+}
+
+a:hover {
+    color: var(--secondary-color); /* Earthy green */
+}
+
+/* Remove underline for social media image hyperlinks */
+.social-media a {
+    text-decoration: none;
+}
+
+/* Main content width */
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: var(--primary-color); /* Deep blue */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px;
+}
+
+/* Colors */
+:root {
+    --primary-color: #264969; /* Deep blue */
+    --secondary-color: #505033; /* Earthy green */
+    --accent1-color: #b4cde4; /* Light blue */
+    --accent2-color: #cfcfb4; /* Light tan */
+}
+
+body {
+    color: var(--primary-color);
+}
+
+/* Additional Styles for Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif; /* Serif font for headings */
+    font-weight: normal; /* Remove bold styling */
+    color: inherit; /* Inherit color from parent */
+}
+
+p {
+    font-family: 'Roboto', sans-serif; /* Sans-serif for paragraphs */
+    font-weight: normal; /* Remove bold styling */
+}
+
+/* Styling for the Hero Section Image */
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Hero text */
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Text shadow for better readability */
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Footer Styling */
+footer {
+    background-color: var(--primary-color); /* Deep blue */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px;
+}
+/* Social Media Links Styling */
+.social-media a {
+    color: #fff; /* White color for the icons */
+    margin: 0 15px; /* Spacing between the icons */
+    font-size: 2rem; /* Size of the icons (adjust as needed) */
+    text-decoration: none; /* Remove the underline */
+}
+
+/* Hover effect for social media links */
+.social-media a:hover {
+    color: var(--accent1-color); /* Light blue color when hovering */
+}
+
+/* Size of Font Awesome Icons */
+.social-media a i {
+    font-size: 30px; /* Set size for icons */
+}
+
+/* If the icons are images, adjust them */
+.social-media a img {
+    width: 30px; /* Size of the image icons */
+    height: 30px; /* Maintain aspect ratio */
+}
