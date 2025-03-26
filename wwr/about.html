@@ -3,84 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Your meta description goes here.">
-    <meta name="author" content="Your Name or Company Name">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>About Us</title>
+    <meta name="description" content="Experience thrilling white water rafting adventures with Van Rafting Adventures">
+    <meta name="author" content="Van Rafting Adventures">
+    <title>About Us - Van Rafting Adventures</title>
+    <link rel="stylesheet" href="styles/rafting.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/rafting.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-     <!-- Header Section -->
-     <header>
+    <header>
         <div class="logo">
-            <img src="images/logos.jpg" alt="White Water Rafting Logo">
-          </div>
-        <nav>
+            <img src="images/logos.jpg" alt="Van Rafting Adventures Logo">
+        </div>
+        <nav aria-label="Main navigation">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="about.html" aria-current="page">About</a></li>
                 <li><a href="trips.html">Trips</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Main Content Section -->
     <main>
-        <div>
-            <img src="images/heroimage.jpg" alt="hero image "> 
-            <h1>Van Rafting Adventures</h1>
-        
-
-              <!-- Article Section -->
-            <article>
-              <img src="images/happyclient.webp" alt="Happy client" >
-              <p>At Rafting Adventures, we are committed to providing exhilarating rafting experiences and unforgettable moments. Our mission is to bring adventure to all while ensuring safety and fun for everyone.</p>
+        <section class="hero">
+            <img src="images/heroimage.jpg" alt="Team rafting through white water rapids" class="hero-image">
+            <div class="hero-content">
+                <h1>Van Rafting Adventures</h1>
+                <a href="trips.html" class="cta-button">Book Your Adventure</a>
+            </div>
+            <article class="mission-overlay">
+                <img src="images/happyclient.webp" alt="Happy clients after rafting adventure">
+                <p>At Van Rafting Adventures, we are committed to providing exhilarating rafting experiences and unforgettable moments. Our mission is to bring adventure to all while ensuring safety and fun for everyone.</p>
             </article>
-        </div>
-        <!-- History Section -->
-        <section>
-            <h2>History</h2>
-            <p>Founded in 2018 by Brother Evance Katanga, Van Rafting Adventures started as a small group of passionate rafting enthusiasts. Over the years, we have grown into a leading adventure company offering thrilling rafting trips across the globe. Our legacy is built on providing exciting and safe experiences for all adventurers.</p>
         </section>
 
-        <!-- Adventure Awaits Section -->
-        <section>
+        <section class="history">
+            <h2>Our History</h2>
+            <div class="history-content">
+                <p>Founded in 2018 by rafting expert Brother Evance Katanga, Van Rafting Adventures began as a tight-knit team of whitewater enthusiasts sharing their passion for river adventures. What started with just a few rafts has grown into a globally recognized company, known for its unwavering commitment to safety, expert guides, and unforgettable experiences. With over 50 professionally trained staff and 10,000+ successful trips, we’ve stayed true to our roots while expanding to offer thrilling adventures for all skill levels—from first-time floaters to adrenaline-seeking experts.
+
+                    At the heart of our success is Bro Evance’s belief that rafting is about more than rapids—it’s about connection, challenge, and the joy of the journey. Today, we continue to honor that vision, blending cutting-edge safety standards with the same passion that inspired our founding. Every trip with Van Rafting Adventures carries the spirit of adventure that first brought our team together, inviting you to be part of our story on the water.
+                    
+                    .</p>
+                <img src="images/founder.jpg" alt="Founder Evance Katanga">
+                <p>Today we operate in 5 countries with over 50 professional guides, maintaining our commitment to safety and exceptional experiences.</p>
+            </div>
+        </section>
+
+        <section class="adventures">
             <h2>Adventure Awaits You!</h2>
-            <div class="rafting-images">
-                <img src="images/image1.webp" alt="Rafting action 1">
-                <img src="images/image2.jpg" alt="Rafting action 2">
-                <img src="images/image3.webp" alt="Rafting action 3">
-                <img src="images/image4.webp" alt="Rafting action 4">
-                <img src="images/imaage5.webp" alt="Rafting action 5">
+            <div class="gallery-grid">
+                <figure>
+                    <img src="images/image1.webp" alt="Rafting through rocky canyon">
+                    <figcaption>Colorado River Expedition</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/image2.jpg" alt="Team navigating rapids">
+                    <figcaption>Advanced Rapids Challenge</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/image3.webp" alt="Scenic river view">
+                    <figcaption>Scenic Family Float</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/image4.webp" alt="Rafting under waterfall">
+                    <figcaption>Waterfall Adventure</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/happyclient.webp" alt="Group celebrating after rafting">
+                    <figcaption>Group Celebration</figcaption>
+                </figure>
             </div>
         </section>
     </main>
 
-    <!-- Footer Section -->
     <footer>
-        <p>&copy; 2025 Van Rafting Adventures. Evance Hosea Katanga.</p>
-        <nav class="sociallinks">
-            <div class="social-media">
-                <a href="https://www.facebook.com" target="_blank">
-                    <i class="fab fa-facebook"></i> <!-- Facebook Icon -->
+        <div class="footer-content">
+            <p>&copy; <span id="current-year">2023</span> Van Rafting Adventures. All rights reserved.</p>
+            <nav class="social-links" aria-label="Social media links">
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-facebook-f"></i>
+                    <span class="sr-only">Facebook</span>
                 </a>
-                <a href="https://www.instagram.com" target="_blank">
-                    <i class="fab fa-instagram"></i> <!-- Instagram Icon -->
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-instagram"></i>
+                    <span class="sr-only">Instagram</span>
                 </a>
-                <a href="https://www.twitter.com" target="_blank">
-                    <i class="fab fa-twitter"></i> <!-- Twitter Icon -->
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-twitter"></i>
+                    <span class="sr-only">Twitter</span>
                 </a>
-            </div>
-          </nav>
-
-          
+            </nav>
+        </div>
     </footer>
-    
+
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
