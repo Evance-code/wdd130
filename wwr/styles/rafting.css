@@ -1,3 +1,7 @@
+/* General Body Styling */
+* {
+    box-sizing: border-box; /* Ensure padding and borders are included in width and height calculations */
+  }
 /* Basic setup */
 body {
     font-family: Arial, sans-serif;
