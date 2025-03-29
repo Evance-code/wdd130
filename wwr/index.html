@@ -1,34 +1,61 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
-             
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Evance Hosea Katanga | WDD 130</title>
-    <meta name="description" content="Evance H Katanga's web development project for WDD130, showcasing HTML, CSS, and web design skills.">
-    <meta name="author" content="Evance Hosea Katanga">
-    <link rel="stylesheet" href="styles/styles.css">
-  </head>
-  <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Van Rafting Adventures</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
     <header>
-      <nav>
-        <a href="#">Home</a>
-        <a href="wwr/">Rafting Site</a>
-      </nav>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
     </header>
+
     <main>
-      <h1>Bro. Evance Hosea Katanga | WDD 130</h1>
-      <img src="images/profile.webp" alt="Hello, my name is Evance Hosea Katanga" width="200">
-      <p> Hello, I'm Evance Katanga from Dar es Salaam, Tanzania. "Aspiring Software Developer | Current Brigham Young University-Idaho Student in Software Development | Flight Dispatcher  | Passionate About Technology and Aviation
-       , I serve as a Ward Elder's quorum President.</p>
+        <div class="hero">
+            <h1>Van Rafting Adventures</h1>
+            <div class="history-content">
+                <p>At Van Rafting Adventures, we are committed to providing exhilarating rafting experiences and unforgettable moments. Our mission is to bring adventure to all while ensuring safety and fun for everyone.</p>
+                <p>Founded by rafting expert Brother Evance Katanga, Van Rafting Adventures began as a tight-knit team of whitewater enthusiasts sharing their passion for river adventures. What started with just a few rafts has grown into a globally recognized company, known for its unwavering commitment to safety, expert guides, and unforgettable experiences.</p>
+            </div>
+        </div>
+
+        <section class="history">
+            <h2>Our History</h2>
+            <div class="history-content">
+                <p>With over 50 professionally trained staff and 10,000+ successful trips, we've stayed true to our roots while expanding to offer thrilling adventures for all skill levels—from first-time floaters to adrenaline-seeking experts.</p>
+                <p>At the heart of our success is Bro Evance's belief that rafting is about more than rapids—it's about connection, challenge, and the joy of the journey. Today, we continue to honor that vision, blending cutting-edge safety standards with the same passion that inspired our founding.</p>
+            </div>
+        </section>
+
+        <section class="adventures">
+            <h2>Adventure Awaits You!</h2>
+            <div class="gallery">
+                <figure><img src="images/image1.webp" alt="Rafting through rocky canyon"><figcaption>Colorado River Expedition</figcaption></figure>
+                <figure><img src="images/image2.jpg" alt="Team navigating rapids"><figcaption>Advanced Rapids Challenge</figcaption></figure>
+                <figure><img src="images/image3.webp" alt="Scenic river view"><figcaption>Scenic Family Float</figcaption></figure>
+                <figure><img src="images/image4.webp" alt="Rafting under waterfall"><figcaption>Waterfall Adventure</figcaption></figure>
+                <figure><img src="images/happyclient.webp" alt="Group celebrating after rafting"><figcaption>Group Celebration</figcaption></figure>
+            </div>
+        </section>
     </main>
-    <aside>
-      <h2>Dar es Salaam, Tanzania</h2>
-      <img src="images/daresSalaam.jpg" alt="Dar es Salaam landscape">
-      <p>Dar es Salaam is the largest city, a vibrant coastal hub known for its rich culture, bustling markets, and beautiful beaches. It serves as a gateway to nearby islands and East African trade.</p>
-    </aside>
+
     <footer>
-      <p>©2025 🌴 Evance Katanga 📌 Dar es Salaam, Tanzania. </p>
+        <p>&copy; <span id="current-year">2023</span> Van Rafting Adventures. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="https://facebook.com"><img src="images/facebook-icon.png" alt="Facebook"></a>
+            <a href="https://instagram.com"><img src="images/instagram-icon.png" alt="Instagram"></a>
+            <a href="https://twitter.com"><img src="images/twitter-icon.png" alt="Twitter"></a>
+        </div>
     </footer>
-  </body>
+
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
 </html>
