@@ -68,13 +68,19 @@ header, main, footer {
     font-weight: 500;
 }
 
-.social-media img {
-    width: 3em;
+
+.social {
     grid-column: 3;
+    justify-self: end;
+}
+
+
+.social img {
+    width: 3em;
 }
 
 footer {
-    background-color: #3e3e3e;
+    background-color: #0AA3CF;
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
     padding: 2rem;
