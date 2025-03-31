@@ -26,6 +26,13 @@ nav {
     font-family: var(--heading-font);
     justify-content: space-around;
 }
+nav a {
+    display: flex;
+    padding: 0,5;
+    margin: -0.14;
+    font-family: var(--heading-font);
+    color: #fff;
+}
 
 
 
