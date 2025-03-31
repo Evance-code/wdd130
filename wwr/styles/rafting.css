@@ -1,185 +1,81 @@
+:root {
+    --primary-color: #6f6f6f ;
+    --secondary-color: #080564 ;
+    --accent1-color: #c98512 ;
+    --accent2-color: #00fd15 ;
 
+    --heading-font: 'Merriweather' ,serif;
+    --paragraph-font: 'Roboto' ,sans-serif;
+
+
+}
 
 body {
-
-    line-height: 1.6;
-    color: #333;
-    margin: 0;
-    padding: 20;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-}
-
-/* Header styles */
-.company-header {
-    background: #c2b6dd;
-    padding: 0px;
-    display: grid;
-    grid-template-columns: auto 1fr;
-    align-items: center;
-    font-family: 'Merriweather', serif;
+    font-family: var(--paragraph-font);
 
 }
 
-.company-logo {
-    width: 90px;
-    height: 90px;
-    background: #ccc;
-    display: flex;
-    margin-left: 90px;
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
 }
 
-.main-menu {
-    display: flex;
-    justify-content: right;
-    gap: 1px;
-    margin-right: 90px;
-   
-}
-
-.main-menu a {
-    color: black;
+a {
     text-decoration: none;
-    font-weight: bold;
-    padding: 10px 20px;
-    background: white;
-    border-radius: 20px;
 }
 
-/* Main content styles */
-.page-content {
+
+header, main, footer {
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+    margin: 0 auto
 }
-.welcome-section {
-    border: 2px solid #ccc;
-    padding: 15px;
+
+.hero {
+    position: relative;
+}
+.hero>img {
     width: 100%;
-    height: 100%;
-    text-align: center;
 }
-/* Welcome section */
-.welcome-section h1 {
-    color: #000;
-    margin-bottom: 20px;
-}
-
-.welcome-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    border: 2px solid #ccc;
-    
+.hero h1 {
+    position: absolute;
+    top: 1em;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffffff95;
+    padding: 1rem;
+    color: var(--secondary-color);
+    font-size: 3rem;
 }
 
-.welcome-text {
-    width: 50%;
-    background: white;
-    padding: 20px;
-    
+.hero article {
+    background-color: #ffffff95;
+    position: absolute;
+    top: 15rem;
+    left: 2rem;
+    right: 2rem;
+
+
+}
+.hero article img{
+    float: right;
+    margin: 2rem;
+    width: 13rem;
 }
 
-.welcome-image {
-    width: 160px;
-    height: 160px;
-    object-fit: cover;
+.hero article p {
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    padding: 1rem;
+    font-weight: 500;
 }
 
-/* History section */
-.our-history {
-    background: #f2f2f2;
-    padding: 20px;
+.social-media img {
+    width: 3em;
+    grid-column: 3;
 }
 
-.our-history h2 {
-    
-    color: black;
-    display: inline-block;
-    padding: 10px 20px;
-    margin-bottom: 20px;
+footer {
+    background-color: #3e3e3e;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding: 2rem;
 }
-
-.history-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.history-text {
-    width: 30%;
-}
-
-.history-image {
-    width: 250px;
-    height: 180px;
-    background: purple;
-}
-
-/* Popular trips section */
-.popular-trips  {
-    margin-bottom: 20px;
-    border: 2px solid #ccc;
-}
-
-.trip-photos {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
-
-
-
-.trip-photos img {
-    width: 170px;
-    height: 170px;
-    object-fit: cover;
-    background: #ccc;
-}
-/* Footer Container */
-.company-footer {
-    display: flex;                /* Use flexbox layout */
-    justify-content: center; /* Space between text and social media icons */
-    align-items: center;          /* Vertically center items */
-    margin: 0;
-    padding: 0;          /* Add padding around footer */
-    background: #c2b6dd;    /* Optional background color */
-    width: 100%;                  /* Ensure it takes full width */
-  }
-  
-  /* Footer Text (Copyright) */
-  .company-footer p {
-    margin: 0;                    /* Remove margin */
-    font-size: 16px;               /* Set font size */
-    color: #333;                  /* Set text color */
-    text-align: center;           /* Center text horizontally */
-    flex-grow: 1;                 /* Ensure text takes available space */
-  }
-  
-  /* Social Media Icons Container */
-  .company-footer .social-media {
-    display: flex;                /* Arrange icons horizontally */
-    gap: 5px;                    /* Space between icons */
-    justify-content: flex-end;    /* Align icons to the right */
-  }
-  
-  /* Individual Social Media Icon */
-  .company-footer .social-media img {
-    width: 22px;                  /* Set width for icons */
-    height: 22px;                 
-            
-  }
-  
-  
-  /* Individual Social Media Icon */
-  .company-footer .social-media img {
-    width: 22px;                 /* Set the width for the icons */
-    height: 22px;                /* Set the height for the icons */
-         
-  }
-
-  
-
- 

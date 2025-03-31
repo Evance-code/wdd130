@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Experience the thrill of Vance Water Rafting! Join us for exciting rafting adventures, breathtaking views, and unforgettable memories on the water.">
+    <meta name="author" content="Evance Hosea Katanga">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>About Our Rafting Company</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+
+</head>
+
+<body>
+    <header class="company-header">
+        <img src="images/logos.jpg" alt="Rafting Company Logo" class="company-logo">
+        <nav class="main-menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="hero">
+            <img src="images/heroimage.jpg" alt="Group rafting adventure" class="welcome-image">
+            <h1>About us</h1>
+            <article>
+                <img src="" alt="">
+                <p> </p>
+            </article>
+        </div>
+        <section>
+            <h2>History</h2>
+            <p>"What started as a humble dream has now become a renowned name in white-water
+                rafting. With just two rafts and an unshakable passion for adventure, we embarked on our first trip
+                down the river over a decade ago.</p>
+        </section>
+        <section>
+            
+        </section>
+    </main> class="page-content">
+        <section class="welcome-section">
+            <h1>Vance White Water Rafting</h1>
+            <div class="welcome-container">
+                <p class="welcome-text">"Step into a world where adventure meets the untamed power of nature. At Vance
+                    White Water Rafting, we don’t just offer rafting trips—we craft unforgettable journeys through
+                    roaring rapids and breathtaking landscapes. Whether you're a seasoned rafter or a first-time
+                    explorer, our expertly guided trips ensure both safety and exhilaration. Are you ready to embrace
+                    the thrill of the river?"</p>
+                <img src="images/heroimage.jpg" alt="Group rafting adventure" class="welcome-image">
+            </div>
+        </section>
+
+        <section class="our-history">
+            <h2>History</h2>
+            <div class="history-content">
+                <p class="history-text">"What started as a humble dream has now become a renowned name in white-water
+                    rafting. With just two rafts and an unshakable passion for adventure, we embarked on our first trip
+                    down the river over a decade ago.</p>
+                <img src="images/happyclient.webp" alt="Our early rafting days" class="history-image">
+                <p class="history-text">Today, we proudly operate across multiple rivers, offering world-class
+                    experiences while staying true to our original mission—delivering excitement, safety, and memories
+                    that last a lifetime."</p>
+            </div>
+        </section>
+
+        <section class="popular-trips">
+            <h2>Adventure Awaits You</h2>
+            <div class="trip-photos">
+                <figure><img src="images/image1.webp" alt="Colorado River rapids">
+                    <figcaption>River rapids</figcaption>
+                </figure>
+                <figure><img src="images/image2.jpg" alt="Group in rapids">
+                    <figcaption>Group in rapids</figcaption>
+                </figure>
+                <figure><img src="images/image3.webp" alt="Family rafting">
+                    <figcaption>Family rafting</figcaption>
+                </figure>
+                <figure><img src="images/image4.webp" alt="Extreme rapids">
+                    <figcaption>Extreme rapids</figcaption>
+                </figure>
+                <figure><img src="images/imaage5.webp" alt="Extreme rapids">
+                    <figcaption> rapids</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <footer class="company-footer">
+        <p>&copy; 2025 Vance Water Rafting Co.</p>
+        <div class="social-media">
+            <a href="https://facebook.com"><img src="images/facebook.jpeg" alt="Facebook"></a>
+            <a href="https://twitter.com"><img src="images/twiter.jpeg" alt="Twitter"></a>
+            <a href="https://instagram.com"><img src="images/instagram.jpeg" alt="Instagram"></a>
+        </div>
+    </footer>
+</body>
+
+</html>
