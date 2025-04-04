@@ -70,6 +70,8 @@ header, main, footer {
 .hero>img {
     width: 100%;
 }
+
+
 .hero h1 {
     position: absolute;
     top: 1em;
@@ -117,7 +119,7 @@ header, main, footer {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjusted min size to ensure images aren't too small */
     gap: 1rem;
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .adventures figure {
@@ -132,10 +134,16 @@ header, main, footer {
 
 .adventures img {
     width: 100%; /* Make sure the image fills the container width */
-    height: 200px; /* Set a fixed height for consistency */
-    object-fit: cover; /* Ensures images cover the container without distortion */
+    height: 300px; /* Set a fixed height for consistency */
+    object-fit: fill; /* Ensures images cover the container without distortion */
     border-radius: 10px; /* Optional rounded corners */
 }
+
+.adventures img:hover {
+    transform: scale(1.1);
+}
+
+
 
 figcaption {
     background: rgba(255, 255, 255, 0.9);
@@ -201,16 +209,18 @@ footer p {
 }
 
 
-.social {
-    display: flex;
-    gap: 1rem;
-}
 
 .social img {
     width: 30px;
     transition: transform 0.3s;
+    
 }
 
 .social img:hover {
+    transform: scale(1.1);
+}
+
+
+footer p:hover {
     transform: scale(1.1);
 }
