@@ -344,7 +344,7 @@ textarea {
 
 .submit-btn {
   background-color: #4CAF50;
-  color: white;
+  color: whitesmoke;
   padding: 12px 20px;
   border: none;
   cursor: pointer;
@@ -354,7 +354,7 @@ textarea {
 }
 
 .submit-btn:hover {
-  background-color: #45a049;
+  background-color: rgba(0, 128, 0, 0.205);
 }
 
 /* Team Section */
@@ -385,7 +385,7 @@ textarea {
 }
 
 .employee-card h3 {
-  font-size: 22px;
+  font-size: 16px;
 }
 
 .employee-card p {
