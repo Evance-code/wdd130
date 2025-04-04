@@ -1,0 +1,135 @@
+/* Contact Page Specific Styles */
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+    padding: 0 1rem;
+  }
+  
+  .contact-info {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .map-container {
+    margin-top: 2rem;
+  }
+  
+  .employee-profiles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+    padding: 0 1rem;
+  }
+  
+  .employee-card {
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .employee-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .employee-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 3px solid #4a89dc;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+  
+  .form-group input, 
+  .form-group textarea, 
+  .form-group select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .form-group textarea {
+    min-height: 150px;
+  }
+  
+  .radio-group {
+    margin: 1rem 0;
+  }
+  
+  .radio-option {
+    margin-right: 1rem;
+  }
+  
+  .radio-label {
+    display: inline;
+    font-weight: normal;
+  }
+  
+  .checkbox-group {
+    margin: 1.5rem 0;
+  }
+  
+  .checkbox-label {
+    display: inline;
+    font-weight: normal;
+    margin-left: 0.5rem;
+  }
+  
+  .submit-btn {
+    background-color: #4a89dc;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .submit-btn:hover {
+    background-color: #3a70c2;
+  }
+  
+  .team-section {
+    text-align: center;
+    margin: 3rem 0;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-container {
+      grid-template-columns: 1fr;
+    }
+  
+    .employee-profiles {
+      grid-template-columns: 1fr;
+    }
+  }
