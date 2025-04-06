@@ -1,57 +1,142 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Contact Vance Water Rafting for inquiries, bookings, or questions about our exciting rafting adventures.">
-    <meta name="author" content="Bro. Katanga Evance Hosea">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <title>Home - Vance Rafting Company</title>
-    <link rel="stylesheet" href="styles/rafting.css">
-
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore our exciting rafting trips at Vance Water Rafting. Choose from beginner to expert level adventures with all safety equipment provided.">
+  <meta name="author" content="Bro. Katanga Evance Hosea">
+  <title>Vance Water Rafting | Our Trips</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/rafting.css">
 </head>
-
 <body>
-    <header>
-        <img src="images/logoss.jpg" alt="Rafting Company Logo" class="company-logo">
-        <nav class="main-menu">
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact Us</a>
-        </nav>
-    </header>
-    <main>
-        <h1>Bro. Evance Hosea Katanga | WDD 130</h1>
-        <img src="images/profile.jpg" alt="Hello, my name is Evance Hosea Katanga" width="200">
-        <p> Hello, I'm Evance Katanga from Dar es Salaam, Tanzania. "Aspiring Software Developer | Current Brigham Young
-            University-Idaho Student in Software Development | Flight Dispatcher | Passionate About Technology and
-            Aviation
-            , I serve as a Ward Elder's quorum President.</p>
-    </main>
-    <aside>
-        <h2>Dar es Salaam, Tanzania</h2>
-        <img src="images/dar-es-Salaam.jpg" alt="Dar es Salaam landscape" width="600">
-        <p>Dar es Salaam is the largest city, a vibrant coastal hub known for its rich culture, bustling markets, and
-            beautiful beaches. It serves as a gateway to nearby islands and East African trade.</p>
-    </aside>
-    <footer class="footer">
-        <p>&copy;2025 | Rafting Website | Bro. Evance Katanga </p>
-        <div class="social">
-            <a href="https://wa.me/255748613040" target="_blank"><img src="images/whatsapp.jpeg"
-                    alt="WhatsApp logo"></a>
-            <a href="https://facebook.com" target="_blank"><img src="images/facebook.jpeg" alt="Facebook logo"></a>
-            <a href="https://twitter.com" target="_blank"><img src="images/twiter.jpeg" alt="Twitter logo"></a>
-            <a href="https://instagram.com" target="_blank"><img src="images/instagram.jpeg" alt="Instagram logo"></a>
-        </div>
-    </footer>
-</body>
+  <header>
+    <img src="images/logoss.jpg" alt="Rafting Company Logo" class="company-logo">
+    <nav class="main-menu">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="trips.html" class="active">Trips</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header>
 
+  <main>
+    <!-- Call to Action -->
+    <section class="cta-trips">
+      <h1>Ready for Your Next Adventure?</h1>
+      <p>Our expert guides are standing by to help you plan the perfect rafting experience.</p>
+      <a href="contact.html" class="cta-button">Contact Us Now</a>
+    </section>
+
+    <!-- Featured Trips -->
+    <section class="featured-trips">
+      <h2>Our Featured Trips</h2>
+      
+      <div class="trip-card">
+        <img src="images/beginer-trip.jpg" alt="Beginner rafting trip">
+        <div class="trip-info">
+          <h3>Family Float Adventure</h3>
+          <p>Perfect for first-timers and families with children ages 8+. Enjoy calm waters with small rapids and beautiful scenery.</p>
+          <ul>
+            <li>Duration: Half Day (4 hours)</li>
+            <li>Difficulty: Class I-II</li>
+            <li>Price: $75/person</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="trip-card">
+        <img src="images/intermediate-trip.jpg" alt="Intermediate rafting trip">
+        <div class="trip-info">
+          <h3>Whitewater Challenge</h3>
+          <p>Our most popular trip! Exciting rapids with calm stretches for swimming and relaxing. Minimum age 12.</p>
+          <ul>
+            <li>Duration: Full Day (7 hours)</li>
+            <li>Difficulty: Class III-IV</li>
+            <li>Price: $120/person</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="trip-card">
+        <img src="images/riverguide4.avif" alt="Expert rafting trip">
+        <div class="trip-info">
+          <h3>Extreme Expedition</h3>
+          <p>For experienced rafters only. Tackle the most challenging rapids in the region with our expert guides.</p>
+          <ul>
+            <li>Duration: 2 Days (Overnight)</li>
+            <li>Difficulty: Class IV-V</li>
+            <li>Price: $350/person</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trip Comparison Table -->
+    <section class="trip-table">
+      <h2>Compare All Trips</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Trip Name</th>
+            <th>Duration</th>
+            <th>Difficulty</th>
+            <th>Age Minimum</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Family Float</td>
+            <td>4 hours</td>
+            <td>Beginner</td>
+            <td>8 years</td>
+            <td>$75</td>
+          </tr>
+          <tr>
+            <td>Whitewater Challenge</td>
+            <td>7 hours</td>
+            <td>Intermediate</td>
+            <td>12 years</td>
+            <td>$120</td>
+          </tr>
+          <tr>
+            <td>Extreme Expedition</td>
+            <td>2 days</td>
+            <td>Expert</td>
+            <td>18 years</td>
+            <td>$350</td>
+          </tr>
+          <tr>
+            <td>Sunset Paddle</td>
+            <td>3 hours</td>
+            <td>Beginner</td>
+            <td>10 years</td>
+            <td>$60</td>
+          </tr>
+          <tr>
+            <td>Weekend Warrior</td>
+            <td>2 days</td>
+            <td>Intermediate</td>
+            <td>14 years</td>
+            <td>$280</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 | Vance Water Rafting | Bro. Evance Katanga</p>
+    <div class="social">
+      <a href="https://wa.me/255748613040" target="_blank"><img src="images/whatsapp.jpeg" alt="WhatsApp"></a>
+      <a href="https://facebook.com" target="_blank"><img src="images/facebook.jpeg" alt="Facebook"></a>
+      <a href="https://twitter.com" target="_blank"><img src="images/twiter.jpeg" alt="Twitter"></a>
+      <a href="https://instagram.com" target="_blank"><img src="images/instagram.jpeg" alt="Instagram"></a>
+    </div>
+    <a href="images/trips-wireframe.jpg" target="_blank" class="wireframe-link">View Trips Page Wireframe</a>
+  </footer>
+</body>
 </html>
